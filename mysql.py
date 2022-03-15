@@ -41,3 +41,7 @@ while number != 13037:
 
 print("Process Complete!")
 con.close()
+
+# Use SQL Command: 
+# "select title, count(title) as Occurrence from json where title='Keyword';"
+# to search for keywords in the SQL table.
